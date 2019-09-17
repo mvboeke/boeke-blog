@@ -6,4 +6,12 @@ templateClass: tmpl-post
 <h4 class="byline">{{ date | readableDate }} by <a href="/about">{{ author }}</a></h4>
 {{ content | safe }}
 
-<p><a href="{{ '/' | url }}">← Home</a></p>
+<p>More about:
+{% for tag in tags %}
+  {%- if tag != "posts" -%}
+  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+  {%- endif -%}
+{% endfor %}
+</p>
+<p><a href="{{ '/posts/' | url }}"><i class="far fa-arrow-circle-left"></i>See all posts</a></p>
