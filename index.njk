@@ -2,18 +2,16 @@
 layout: layouts/home.njk
 tags:
   - nav
-navtitle: Home
 date: 2019-01-01
 ---
-<h1><em>"Hey BO-key!"</em></h1>
-I design and build products, teams, and companies. Sometimes I speak about that stuff at conferences and write about it (and my other obsessions) online. My first name is Michael, but nearly everyone ends up calling me by my last name, because it's fun to say Boeke. <em>BO-key!</em>
+<h1>HEY THERE</h1>
+<p>My first name is Michael, but nearly everyone ends up calling me by my last name, because it's fun to say Boeke. <em>BO-key!</em><p>
 
-<h2>Obsessions</h2>
-I have many interests, but I'm prone to obsess over a few things in particular. These include cars, running, fatherhood, music, and photography, to name a few.
+<p>I have many interests, but I'm prone to obsessing over a few things in particular. These include cars, running, fatherhood, music, and photography, to name a few. Sometimes I <a href="/speaking">speak</a> about my work at conferences and <a href="posts">write</a> about it (and my other obsessions) online.</p>
 
 <h2>Latest Writing</h2>
 
 {% set postslist = collections.posts | head(-3) %}
 {% include "postslist.njk" %}
 
-<p>Check out <a href="{{ '/posts/' | url }}">more posts</a></p>
+<p><i class="far fa-arrow-circle-right"></i> Check out <a href="{{ '/posts/' | url }}">more posts</a></p>

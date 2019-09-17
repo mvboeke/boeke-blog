@@ -2,6 +2,7 @@
 title: 'UX Antipatterns: Hinting: instead of acting'
 description: 'UX Antipatterns: Hinting instead of acting'
 date: 2013-03-07
+author: Michael Boeke
 tags:
   - design
   - antipatterns

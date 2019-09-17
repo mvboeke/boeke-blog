@@ -2,6 +2,7 @@
 title: Design critiques are loaded with BS, and that’s OK
 description: Design critiques are loaded with BS, and that’s OK
 date: 2013-02-20
+author: Michael Boeke
 tags: design
 layout: layouts/post.njk
 icon: poo

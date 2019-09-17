@@ -1,3 +1,48 @@
 [build]
   publish = "_site"
   command = "DEBUG=* eleventy"
+
+[[redirects]]
+  from = "/blog/2013/09/10/Self-hosting-Google-web-fonts/"
+  to = "/posts/Self-hosting-Google-web-fonts/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/07/16/Perceived-performance-is-what-matters/"
+  to = "/posts/Perceived-performance-is-what-matters/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/03/07/UI-Antipatterns-Hinting-instead-of-acting/"
+  to = "/posts/UX-Antipatterns-Hinting-instead-of-acting/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2013/02/20/design-critiques-are-loaded-with-bs-and-thats-ok/"
+  to = "/posts/Design-critiques-are-loaded-with-BS-and-thats-OK/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2012/12/12/UI-Antipatterns-Repeat-Data-Collection/"
+  to = "/posts/UX-Antipatterns-Repeat-Data-Collection/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2012/11/28/ui-antipatterns-splitting-numbers/"
+  to = "/posts/UX-Antipatterns-Splitting-Numbers/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2012/11/01/sales-timelines-explained-for-geeks/"
+  to = "/posts/quantum-nature-of-sales/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2012/09/16/how-to-get-designers-to-make-your-open-source-project-awesome/"
+  to = "/posts/How-to-get-designers-to-make-your-open-source-project-awesome/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2012/07/31/ui-anti-patterns-mixing-status-and-action/"
+  to = "/posts/UX-Anti-patterns-mixing-status-and-action/"
+  status = 301

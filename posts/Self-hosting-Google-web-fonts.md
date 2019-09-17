@@ -2,6 +2,7 @@
 title: Self-hosting Google web fonts
 description: Self-hosting Google web fonts
 date: 2013-10-09
+author: Michael Boeke
 tags:
   - code
   - web fonts
@@ -22,3 +23,5 @@ The lesson learned here: download the Chrome/Windows WOFF from Google Fonts if y
 
 I’m still not clear on why Google Fonts serves up different WOFF files for Windows and OSX. Does anyone out there know the reason for this?
 
+## Update ##
+Since this was published a few people have confirmed that OSX and Windows utilize different rendering engines. Google serves up different files to each, in order to keep files sizes as small as possible. It can be confusing, because both files will have the same .WOFF filename extension.

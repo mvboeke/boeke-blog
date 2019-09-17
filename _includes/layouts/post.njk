@@ -3,7 +3,7 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 <h1>{{ title }}</h1>
-
+<h4 class="byline">{{ date | readableDate }} by <a href="/about">{{ author }}</a></h4>
 {{ content | safe }}
 
 <p><a href="{{ '/' | url }}">← Home</a></p>

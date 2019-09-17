@@ -2,6 +2,7 @@
 title: Perceived performance is what matters
 description: Perceived performance is what matters
 date: 2013-07-16
+author: Michael Boeke
 tags:
   - mobile
   - HTML 5
@@ -19,6 +20,3 @@ For two good examples, check out [Forecast.io](http://michaelboeke.com/blog/2013
 One of the other advantages that web apps have, is the ability to provide a great user experience within the web view of another app. When you link to something within Twitter, or search using the Google app on the iPhone, you’re going to end up at the web view. GitHub points to this very use case in their recent blog post.
 
 I’m certainly not claiming that people shouldn’t make native apps. Most of the apps I love are native apps. However, I think most products would best serve their customers by providing an excellent mobile web experience to complement their apps. I’m curious to watch the Mozilla folks and others push the boundaries of modern mobile web apps, where performance will be the primary challenge. There is much to be gained by continuing down that path, despite the challenges.
-
-<a href="{{ '/posts/firstpost/' | url }}">First post</a>
-<a href="{{ '/posts/thirdpost/' | url }}">Third post</a>

@@ -2,6 +2,7 @@
 title: 'UX Antipatterns: Repeat Data Collection'
 description: 'UX Antipatterns: Repeat Data Collection'
 date: 2012-12-12
+author: Michael Boeke
 tags:
   - design
   - antipatterns

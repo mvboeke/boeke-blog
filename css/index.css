@@ -3,7 +3,7 @@
   --darkred: #7F0036;
   --lightgray: #e0e0e0;
   --gray: #C0C0C0;
-  --darkgray: #333;
+  --darkgray: #646969;
   --navy: #555;
   --blue: #2693bc;
   --white: #fff;
@@ -15,23 +15,31 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Asap', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 18px;
   line-height: 1.6;
   color: var(--darkgray);
   background-color: var(--white);
 }
 
+h1, h2, h3, h4, .nav {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+img {
+  max-width: 100%;
+}
+
 h1 {
-  color: var(--red);
+  color: var(--blue);
 }
 
 p:last-child {
   margin-bottom: 0;
 }
 p,
-.tmpl-post li,
-img {
+.tmpl-post li {
   max-width: 37.5em; /* 600px /16 */
 }
 p,
@@ -39,10 +47,11 @@ p,
   line-height: 1.45;
 }
 a[href] {
-  color: var(--blue);
+  color: var(--darkgray);
+  transition: .2s;
 }
-a[href]:visited {
-  color: var(--navy);
+a[href]:hover {
+  color: var(--blue);
 }
 main {
   padding: 1rem;
@@ -57,6 +66,12 @@ header:after {
   content: "";
   display: table;
   clear: both;
+}
+footer {
+  text-align: center;
+  font-size: .778em;
+  border-top: 1px dashed var(--lightgray);
+  padding: 18px;
 }
 table {
   margin: 1em 0;
@@ -157,6 +172,7 @@ pre {
   text-align: center;
   border-radius: 4px;
   padding: .8em;
+  margin-bottom: 16px;
   font-size: 3em;
   color: white;
   transition: .2s;
@@ -177,7 +193,14 @@ pre {
   transform: scale(1.25);
   opacity: 1;
 }
-
+.byline {
+  text-transform: none;
+  /*font-weight: normal;*/
+  margin-top: -27px;
+}
+.byline a {
+  text-decoration: none;
+}
 .postlist {
   list-style: none;
   padding: 0;
@@ -185,13 +208,6 @@ pre {
 .postlist-item {
   vertical-align: top;
 }
-/*.postlist-item:before {
-  display: inline-block;
-  pointer-events: none;
-  content: "" counter(start-from, decimal-leading-zero) ". ";
-  line-height: 100%;
-  text-align: right;
-}*/
 .postlist-item-link {
   display: block;
 }
@@ -215,10 +231,42 @@ pre {
   font-weight: 700;
 }
 
+/* Speaking page styles */
 .slides {
- /* width: 400px;*/
+ margin-top: 16px;
+}
+.talk-title {
+  margin-bottom: 4px;
 }
 
+/* Social media links on about page */
+.profile-pic {
+  float: left;
+  width: 7em;
+  border-radius: 4px;
+  margin: 7px 18px 7px 0;
+}
+.social {
+  padding-left: 0;
+}
+.social li {
+  display: inline-block;
+  font-size: 1.5em;
+  margin-left: 0;
+  margin-right: .5em;
+}
+.social li a {
+  border: 2px solid var(--darkgray);
+  border-radius: 4px;
+  width: 1.875em;
+  height: 1.875em;
+  display: block;
+  text-align: center;
+  line-height: 1.875em;
+}
+.social li a:hover {
+  border-color: var(--blue);
+}
 /* Tags */
 .tag {
   display: inline-block;
@@ -273,13 +321,14 @@ header, .home, main {
 .postlist-item {
   width: 300px;
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 18px;
+  margin-bottom: 18px;
 }
 }
 
 @media (min-width: 768px){
 
-header, main {
+header, main, footer {
   max-width: 724px;
   margin: 0 auto;
 }
@@ -288,7 +337,7 @@ header, main {
 
 @media (min-width: 1024px){
 
-header, main {
+header, main, footer {
   max-width: 960px;
   margin: 0 auto;
 }
