@@ -1,6 +1,6 @@
 ---
-title: 'Switching from Trello to Clubhouse (instead of Jira)'
-description: 'Switching from Trello to Clubhouse (instead of Jira)'
+title: 'Switching from Trello to Clubhouse (not Jira)'
+description: 'Switching from Trello to Clubhouse (not Jira)'
 date: 2019-09-17
 author: Michael Boeke
 tags:
@@ -43,8 +43,6 @@ My teammates started getting bombarded with email notifications that they could 
 
 Clubhouse offers the best aspects of Trello while addressing its shortcomings and with none of the drawbacks we found in Jira’s “enterprise robustness”.
 
-![Clubhouse](/img/clubhouse.png)
-
 ### Easy to group related story cards
 Epics are a first-class idea in Clubhouse and enable my team to easily group stories together in a natural way.
 
@@ -53,6 +51,8 @@ The completed state for story cards is an infinite-scrolling column, divided by 
 
 ### Easily organize future work
 Using Epics and Milestones, I can create an agile roadmap for things we expect to build over time horizons longer than a one-week sprint.
+
+![Clubhouse](/img/clubhouse.png)
 
 ### Easily make changes in bulk
 Doing maintenance on a large group of cards works just like you'd expect. It's so easy, we can make the changes during a planning meeting without slowing anything down.
