@@ -15,7 +15,7 @@ However, Trello has some limitations, and the more mature your team, product, an
 
 ## The Limitations of Trello
 
-No way to group related story cards
+### No way to group related story cards
 The biggest problem is that Trello only has two main layers of organization: a card that is used to represent a story, and a board that collects those cards into stages. However, there is no good way to tie related cards together as they travel across the board. Trello is missing a layer of abstraction that enables you to create a group of stories in one project or “epic”.
 
 ### Nowhere for completed cards to go
@@ -37,9 +37,13 @@ However, some PMs I respect told me that Atlassian had done much to modernize Ji
 
 My teammates started getting bombarded with email notifications that they could not control. As the admin, I could not easily shut off notifications for a particular user either. Instead, I was confronted with a gigantic and byzantine matrix of roles and permissions that looked like it hadn’t been refreshed since 2008. That was the end of the experiment.
 
+![Robust Enterprise Configuration](/img/jira_config.jpeg)
+
 ## The Clubhouse approach
 
 Clubhouse offers the best aspects of Trello while addressing its shortcomings and with none of the drawbacks we found in Jira’s “enterprise robustness”.
+
+![Clubhouse](/img/clubhouse.png)
 
 ### Easy to group related story cards
 Epics are a first-class idea in Clubhouse and enable my team to easily group stories together in a natural way.
@@ -61,4 +65,4 @@ In addition to all of the above, Clubhouse has the integrations we want (primari
 ### Clubhouse shortcomings?
 Not much. Reporting options feel a little under-developed. Also, the story estimates options seem too rigid. We were in the habit of using t-shirt sizes (e.g. S, M, L, XL) but you have to choose a numeric value in Clubhouse. Presumably, that’s to support the progress meters at the Epic and Milestone levels. Clubhouse support for multiple teams isn’t great, but they’re working on it.
 
-After 6+ months of working in Clubhouse, it’s been a great fit for my team. It will be my default choice in the future unless I’m working on a project with no budget. In that case, Trello’s free offering is still hard to beat.
+After 6+ months of working in Clubhouse, it’s been a great fit for my team. It will be my default choice in the future, especially now that it's free for up to 10 users. That makes it work even for side projects and early stage startups with no budget.
