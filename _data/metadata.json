@@ -3,14 +3,14 @@
   "url": "https://michaelboeke.com/",
   "description": "Website of Michael Boeke, product leader, designer, speaker, square peg.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "A forum to contemplate design, analyze product management, and get nerdy about my favorite topics.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "url": "https://myurl.com/feed/feed.xml",
-    "id": "https://myurl.com/"
+    "url": "https://michaelboeke.com/feed/feed.xml",
+    "id": "https://michaelboeke.com/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Michael Boeke",
+    "email": "michael@michaelboeke.com"
   }
 }
