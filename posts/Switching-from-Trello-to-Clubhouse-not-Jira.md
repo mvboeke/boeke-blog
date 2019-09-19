@@ -9,7 +9,7 @@ layout: layouts/post.njk
 icon: random
 ---
 
-I’ve used a bunch of different agile project management tools throughout my career, and all are a pain in some way. Developers I’ve worked with are usually skeptical of project management tools, so I’m happy to work with whatever my team will actually use. That means I've been using Trello for quite some time. It's simple, fast, and provides just enough structure to organize a weekly sprint of work. It' also includes lots of good features like attachments for mockups, to-do lists, and integrations with dev tools like GitHub and Slack.
+I’ve used a bunch of different agile project management tools throughout my career, and all are a pain in some way. Developers I’ve worked with are usually skeptical of project management tools, so I’m happy to work with whatever my team will actually use. That means I've been using Trello for quite some time. It's simple, fast, and provides just enough structure to organize a weekly sprint of work. It also includes lots of good features like attachments for mockups, to-do lists, and integrations with dev tools like GitHub and Slack.
 
 However, Trello has some limitations, and the more mature your team, product, and process get, the more difficult it can be to deal with those limitations.
 
@@ -63,6 +63,6 @@ Search works well in Clubhouse, but it's the logical structure of epics, labels,
 In addition to all of the above, Clubhouse has the integrations we want (primarily Github and Slack) and other features we find useful, like labels, time estimates, and story-types (feature, bug, or chore).
 
 ### Clubhouse shortcomings?
-Not much. Reporting options feel a little under-developed. Also, the story estimates options seem too rigid. We were in the habit of using t-shirt sizes (e.g. S, M, L, XL) but you have to choose a numeric value in Clubhouse. Presumably, that’s to support the progress meters at the Epic and Milestone levels. Clubhouse support for multiple teams isn’t great, but they’re working on it.
+Not much. Reporting options feel a little under-developed. Also, the story estimates options seem too rigid. We were in the habit of using t-shirt sizes (e.g. S, M, L, XL) but you have to choose a numeric value in Clubhouse. Presumably, that’s to support the progress meters at the Epic and Milestone levels. Clubhouse support for multiple teams isn’t great, but they’re working on it. And finally, the entire interface could use some love. Refreshed colors would make the interface more appealing and more varied sizes of text and controls could make the interface more understandable - everything seems a bit small on a large monitor.
 
 After 6+ months of working in Clubhouse, it’s been a great fit for my team. It will be my default choice in the future, especially now that it's free for up to 10 users. That makes it work even for side projects and early stage startups with no budget.
