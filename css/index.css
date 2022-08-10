@@ -50,6 +50,12 @@ p,
 .tmpl-post img {
   box-shadow: var(--shadow) var(--gray);
 }
+.tmpl-post img.portrait-image {
+  max-width: 375px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
 a[href] {
   color: var(--darkgray);
   transition: .2s;
