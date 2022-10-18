@@ -1,6 +1,6 @@
 ---
 title: 'Embarking on My Own Climate journey'
-description: 'Chronicling my journey to explore how I can have a positive effect on climate'
+description: 'Chronicling my journey to explore how I can have a positive effect on climate issues'
 date: 2022-10-17
 author: Michael Boeke
 tags:
