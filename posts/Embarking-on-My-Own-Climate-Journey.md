@@ -7,6 +7,7 @@ tags:
  - Climate
 layout: layouts/post.njk
 icon: hiking
+social_image: /img/redwood-forest-path.jpg
 ---
 
 

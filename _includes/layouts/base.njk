@@ -8,7 +8,7 @@
     <meta property="og:title" content="{{ renderData.title or title or metadata.title }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ page.url }}" />
-    <meta property="og:image" content="/img/social_card.png" />
+    <meta property="og:image" content="{{ renderData.social_image or social_image or metadata.social_image }}" />
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
