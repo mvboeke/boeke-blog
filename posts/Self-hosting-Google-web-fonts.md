@@ -8,7 +8,7 @@ tags:
   - web fonts
 layout: layouts/post.njk
 image: /img/woff-comparison.png
-icon: font-case
+icon: font
 ---
 When using web fonts from Google Fonts, it generally makes sense to take advantage of the files hosted on Google’s CDN. However, there are legitimate reasons to host fonts yourself sometimes. If you need to keep your tinfoil hat on at all times, because your site attracts bad guys, you may not want to take the risk of running code from a third party, even one as respected and august as The Google. That is indeed the case at Braintree, where we decided to host fonts on our own servers.
 

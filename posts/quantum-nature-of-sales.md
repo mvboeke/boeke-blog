@@ -6,7 +6,7 @@ author: Michael Boeke
 tags:
   - startups
 layout: layouts/post.njk
-icon: wave-sine
+icon: wave-square
 ---
 When we were first starting up Backstop, we would watch eagerly as each new customer advanced through the sales pipeline, and tear our hair out as deals seemed to drag on forever. Years later, I still hear the development teams I work with at Braintree asking ”when will deal X be done?” So, I thought it might be useful to write down this explanation I came up with for that early Backstop dev team.
 

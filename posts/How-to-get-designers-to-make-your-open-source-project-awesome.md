@@ -7,7 +7,7 @@ tags:
   - design
   - open source
 layout: layouts/post.njk
-icon: alicorn
+icon: hand-sparkles
 ---
 
 Like many designers, I use open source software, believe in the open source ethos, and would love to help make open source software look better and be easier to use. A lot of open-source projects are focused on the back-end, and don’t require a ton of UI/UX design, but it seems that there are more web apps popping up these days.

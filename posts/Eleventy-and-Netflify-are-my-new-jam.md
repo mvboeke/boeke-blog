@@ -6,7 +6,7 @@ author: Michael Boeke
 tags:
  - Code
 layout: layouts/post.njk
-icon: boombox
+icon: volume-up
 ---
 
 I recently found myself in the job market for the first time in a while, and it was just the kick I needed to embark on a long-overdue overhaul of my website and blog (the very one you are reading).
