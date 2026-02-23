@@ -1,7 +1,7 @@
 <p>
   This is my public forum to contemplate design, analyze product management, and get nerdy about my favorite topics.
 </p>
-<ol reversed class="postlist" style="counter-reset: start-from {{ postslist.length + 1 }}">
+<ol reversed class="postlist">
 {% for post in postslist | reverse %}
   <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
     <a href="{{ post.url | url }}" class="postlist-item-link">
