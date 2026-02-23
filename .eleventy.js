@@ -42,9 +42,11 @@ module.exports = function(eleventyConfig) {
     linkify: true
   };
   let opts = {
-    permalink: true,
-    permalinkClass: "direct-link",
-    permalinkSymbol: "#"
+    permalink: markdownItAnchor.permalink.ariaHidden({
+      placement: "before",
+      class: "direct-link",
+      symbol: "#"
+    })
   };
 
   eleventyConfig.setLibrary("md", markdownIt(options)
